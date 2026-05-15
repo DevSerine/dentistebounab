@@ -1,0 +1,24 @@
+:root {
+  --font-jost: "Jost", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-jost-fallback: "Jost", system-ui, sans-serif;
+  --font-open-sans-fallback: "Open Sans", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-open-sans), var(--font-open-sans-fallback);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn,
+.navbar-light .navbar-nav .nav-link,
+.brand-title,
+.reservation-step span,
+.dentist-point {
+  font-family: var(--font-jost), var(--font-jost-fallback);
+}

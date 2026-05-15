@@ -1,0 +1,28 @@
+<!-- Copier ce contenu dans EmailJS → Email Templates → Create template -->
+<!-- Nom suggéré : Contact site Dr Bounab -->
+<!-- To Email : dentistebounab@gmail.com -->
+<!-- From Name : {{from_name}} -->
+<!-- Reply To : {{from_email}} -->
+<!-- Subject : {{subject}} -->
+
+<p>Nouveau message depuis le site <strong>{{cabinet}}</strong>.</p>
+
+<table style="border-collapse:collapse;width:100%;max-width:560px">
+  <tr>
+    <td style="padding:8px;border:1px solid #ddd;font-weight:bold">Nom</td>
+    <td style="padding:8px;border:1px solid #ddd">{{from_name}}</td>
+  </tr>
+  <tr>
+    <td style="padding:8px;border:1px solid #ddd;font-weight:bold">Email</td>
+    <td style="padding:8px;border:1px solid #ddd">{{from_email}}</td>
+  </tr>
+  <tr>
+    <td style="padding:8px;border:1px solid #ddd;font-weight:bold">Objet</td>
+    <td style="padding:8px;border:1px solid #ddd">{{subject}}</td>
+  </tr>
+</table>
+
+<p style="margin-top:16px"><strong>Message :</strong></p>
+<p style="white-space:pre-wrap">{{message}}</p>
+
+<p style="color:#666;font-size:12px">Destinataire cabinet : {{to_email}}</p>
