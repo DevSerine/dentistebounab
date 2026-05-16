@@ -9,8 +9,8 @@ export default function Navbar() {
           <img
             className="brand-icon"
             src={LOGO_PATH}
-            width={100}
-            height={100}
+            width={95}
+            height={95}
             alt=""
             aria-hidden="true"
           />
