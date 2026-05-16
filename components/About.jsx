@@ -14,7 +14,7 @@ export default function About() {
                               <h1 className="display-5 mb-0">Cabinet dentaire du Dr Bounab — El Biar</h1>
                           </div>
                           <p className="lead text-body mb-4">
-                              Au boulevard Colonel Bougara, El Biar pour vos soins courants, urgences dentaires et esthétique. Ouvert 24h/24, 7j/7 (samedi au jeudi). Rendez-vous par téléphone ou WhatsApp.
+                              Au boulevard Colonel Bougara pour vos soins courants, urgences dentaires et esthétique. Ouvert 24h/24, 7j/7 (samedi au jeudi). Rendez-vous par téléphone ou WhatsApp.
                           </p>
                           <div className="row g-3">
                               <div className="col-sm-6">
