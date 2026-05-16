@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { WHATSAPP_GREETING, whatsAppUrl } from "@/lib/constants";
+import { useRef, useState } from "react";
+import { WHATSAPP_GREETING, WHATSAPP_NUMBER } from "@/lib/constants";
 import {
   buildWhatsAppMessage,
   collectFormData,
@@ -20,14 +20,16 @@ export default function WhatsAppForm({
 }) {
   const [status, setStatus] = useState("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const messageInputRef = useRef(null);
+  const whatsAppAction = `https://wa.me/${WHATSAPP_NUMBER}`;
 
   const handleSubmit = (event) => {
-    event.preventDefault();
     setErrorMessage("");
 
     const form = event.currentTarget;
 
     if (!form.checkValidity()) {
+      event.preventDefault();
       form.reportValidity();
       return;
     }
@@ -36,6 +38,7 @@ export default function WhatsAppForm({
     const missing = validateRequired(data, requiredFields);
 
     if (missing.length > 0) {
+      event.preventDefault();
       setStatus("error");
       setErrorMessage(
         `Veuillez remplir les champs obligatoires : ${missing.join(", ")}.`
@@ -49,26 +52,25 @@ export default function WhatsAppForm({
 
     const message = buildWhatsAppMessage(prefix, data);
 
-    const opened = window.open(
-      whatsAppUrl(message),
-      "_blank",
-      "noopener,noreferrer"
-    );
-
-    if (!opened) {
-      setStatus("error");
-      setErrorMessage(
-        "Le navigateur a bloqué l'ouverture de WhatsApp. Autorisez les pop-ups ou réessayez."
-      );
-      return;
+    if (messageInputRef.current) {
+      messageInputRef.current.value = message;
     }
 
     setStatus("success");
-    form.reset();
+    window.setTimeout(() => form.reset(), 0);
   };
 
   return (
-    <form className={className} onSubmit={handleSubmit} noValidate>
+    <form
+      action={whatsAppAction}
+      className={className}
+      method="get"
+      onSubmit={handleSubmit}
+      target="_blank"
+      rel="noopener noreferrer"
+      noValidate
+    >
+      <input ref={messageInputRef} type="hidden" name="text" />
       {children}
       <div className="col-12">
         <button type="submit" className="btn btn-primary w-100 py-3">
