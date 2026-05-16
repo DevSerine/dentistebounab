@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import ClientProviders from "@/components/ClientProviders";
 
 const GOOGLE_SITE_VERIFICATION = "kM4HEis6XbqY__gcJi-jiHTUETd--zw7rMsv_IFDJaQ";
-const FAVICON_PATH = "/img/ChatGPT%20Image%20May%2015%2C%202026%2C%2006_04_26%20PM.svg";
+const FAVICON_PATH = "/favicon.svg";
 
 export const metadata = {
   ...siteMetadata,
