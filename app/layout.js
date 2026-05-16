@@ -11,7 +11,11 @@ export const metadata = {
     google: GOOGLE_SITE_VERIFICATION,
   },
   icons: {
-    icon: [{ url: FAVICON_PATH, type: "image/svg+xml", sizes: "any" }],
+    icon: [
+      { url: FAVICON_PATH, type: "image/svg+xml", sizes: "any" },
+      { url: `${FAVICON_PATH}?v=2`, type: "image/svg+xml", sizes: "96x96" },
+      { url: `${FAVICON_PATH}?v=3`, type: "image/svg+xml", sizes: "192x192" },
+    ],
     shortcut: [{ url: FAVICON_PATH, type: "image/svg+xml" }],
   },
 };
@@ -48,7 +52,9 @@ export default function RootLayout({ children }) {
         />
         <link rel="stylesheet" href="/lib/animate/animate.min.css" />
         <link rel="icon" href={FAVICON_PATH} type="image/svg+xml" sizes="any" />
-        <link rel="shortcut icon" href={FAVICON_PATH} type="image/svg+xml" />
+        <link rel="icon" href={`${FAVICON_PATH}?v=2`} type="image/svg+xml" sizes="96x96" />
+        <link rel="icon" href={`${FAVICON_PATH}?v=3`} type="image/svg+xml" sizes="192x192" />
+        <link rel="shortcut icon" href={`${FAVICON_PATH}?v=2`} type="image/svg+xml" />
       </head>
       <body>
         <script
