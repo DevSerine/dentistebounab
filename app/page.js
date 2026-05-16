@@ -6,7 +6,6 @@ import About from "@/components/About";
 import Reservation from "@/components/Reservation";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
-import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
@@ -26,7 +25,6 @@ export default function HomePage() {
           <Reservation />
           <Services />
           <Team />
-          <FAQ />
           <Contact />
           <CallToAction />
         </main>
