@@ -2,10 +2,16 @@ import { siteMetadata, getLocalBusinessJsonLd } from "@/lib/seo";
 import "@/styles/globals.css";
 import ClientProviders from "@/components/ClientProviders";
 
+const GOOGLE_SITE_VERIFICATION = "kM4HEis6XbqY__gcJi-jiHTUETd--zw7rMsv_IFDJaQ";
+
 export const metadata = {
   ...siteMetadata,
+  verification: {
+    google: GOOGLE_SITE_VERIFICATION,
+  },
   icons: {
-    icon: "/img/logo.svg",
+    icon: [{ url: "/img/logo.svg", type: "image/svg+xml", sizes: "any" }],
+    shortcut: [{ url: "/img/logo.svg", type: "image/svg+xml" }],
   },
 };
 
@@ -40,7 +46,8 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
         />
         <link rel="stylesheet" href="/lib/animate/animate.min.css" />
-        <meta name="google-site-verification" content="kM4HEis6XbqY__gcJi-jiHTUETd--zw7rMsv_IFDJaQ" />
+        <link rel="icon" href="/img/logo.svg" type="image/svg+xml" sizes="any" />
+        <link rel="shortcut icon" href="/img/logo.svg" type="image/svg+xml" />
       </head>
       <body>
         <script

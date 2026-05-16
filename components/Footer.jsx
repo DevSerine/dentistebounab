@@ -27,7 +27,7 @@ export default function Footer() {
                       </div>
                       <div className="col-lg-3 col-md-6">
                           <h3 className="text-white mb-4">Contactez-nous</h3>
-                          <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>El Biar, Alger</p>
+                          <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>Boulevard Colonel Bougara, El Biar, Alger</p>
                           <p className="mb-2"><i className="bi bi-envelope-open text-primary me-2"></i>dentistebounab@gmail.com</p>
                           <p className="mb-0"><i className="bi bi-telephone text-primary me-2"></i>0555 91 70 61</p>
                           <p className="mb-0"><i className="bi bi-map text-primary me-2"></i><a href="https://www.google.com/maps/place/Dentiste+dr+bounab+H24+7%2F7/@36.7684005,3.0315389,17z/data=!3m1!4b1!4m6!3m5!1s0x128fb3001a68ca17:0xaf883c8ecb26015a!8m2!3d36.7684005!4d3.0315389!16s%2Fg%2F11w1d9nm0h?entry=ttu&g_ep=EgoyMDI2MDUxMi4wIKXMDSoASAFQAw%3D%3D" className="text-white" target="_blank" rel="noopener">Voir sur Google Maps</a></p>
