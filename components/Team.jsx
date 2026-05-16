@@ -37,9 +37,9 @@ export default function Team() {
                                   Notre Dentiste
                               </h5>
       
-                              <h2 className="display-6 mb-0">
+                              <h1 className="display-6 mb-0">
                                   Une prise en charge attentive, transparente et personnalisée
-                              </h2>
+                              </h1>
                           </div>
       
                           <p className="mb-4">
