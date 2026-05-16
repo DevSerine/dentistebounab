@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import ClientProviders from "@/components/ClientProviders";
 
 const GOOGLE_SITE_VERIFICATION = "kM4HEis6XbqY__gcJi-jiHTUETd--zw7rMsv_IFDJaQ";
+const FAVICON_PATH = "/img/ChatGPT%20Image%20May%2015%2C%202026%2C%2006_04_26%20PM.svg";
 
 export const metadata = {
   ...siteMetadata,
@@ -10,8 +11,8 @@ export const metadata = {
     google: GOOGLE_SITE_VERIFICATION,
   },
   icons: {
-    icon: [{ url: "/img/logo.svg", type: "image/svg+xml", sizes: "any" }],
-    shortcut: [{ url: "/img/logo.svg", type: "image/svg+xml" }],
+    icon: [{ url: FAVICON_PATH, type: "image/svg+xml", sizes: "any" }],
+    shortcut: [{ url: FAVICON_PATH, type: "image/svg+xml" }],
   },
 };
 
@@ -46,8 +47,8 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
         />
         <link rel="stylesheet" href="/lib/animate/animate.min.css" />
-        <link rel="icon" href="/img/logo.svg" type="image/svg+xml" sizes="any" />
-        <link rel="shortcut icon" href="/img/logo.svg" type="image/svg+xml" />
+        <link rel="icon" href={FAVICON_PATH} type="image/svg+xml" sizes="any" />
+        <link rel="shortcut icon" href={FAVICON_PATH} type="image/svg+xml" />
       </head>
       <body>
         <script
