@@ -1,4 +1,4 @@
-import { siteMetadata, getLocalBusinessJsonLd } from "@/lib/seo";
+import { siteMetadata, getStructuredDataJsonLd } from "@/lib/seo";
 import "@/styles/globals.css";
 import ClientProviders from "@/components/ClientProviders";
 
@@ -13,10 +13,9 @@ export const metadata = {
   icons: {
     icon: [
       { url: FAVICON_PATH, type: "image/svg+xml", sizes: "any" },
-      { url: `${FAVICON_PATH}?v=2`, type: "image/svg+xml", sizes: "96x96" },
-      { url: `${FAVICON_PATH}?v=3`, type: "image/svg+xml", sizes: "192x192" },
+      { url: "/favicon.ico", type: "image/x-icon", sizes: "48x48" },
     ],
-    shortcut: [{ url: FAVICON_PATH, type: "image/svg+xml" }],
+    shortcut: [{ url: "/favicon.ico", type: "image/x-icon" }],
   },
 };
 
@@ -28,10 +27,10 @@ export const viewport = {
 
 /** Polices chargées dans le navigateur uniquement — évite les erreurs serveur si next/font ne peut joindre Google. */
 export default function RootLayout({ children }) {
-  const jsonLd = getLocalBusinessJsonLd();
+  const jsonLd = getStructuredDataJsonLd();
 
   return (
-    <html lang="fr">
+    <html lang="fr-DZ">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -42,6 +41,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" />
         <link rel="dns-prefetch" href="https://www.google.com" />
+        <link rel="preload" href="/img/dentist-giving-mirror-patient-office.jpg" as="image" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
@@ -51,10 +51,10 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
         />
         <link rel="stylesheet" href="/lib/animate/animate.min.css" />
-        <link rel="icon" href={FAVICON_PATH} type="image/svg+xml" sizes="any" />
-        <link rel="icon" href={`${FAVICON_PATH}?v=2`} type="image/svg+xml" sizes="96x96" />
-        <link rel="icon" href={`${FAVICON_PATH}?v=3`} type="image/svg+xml" sizes="192x192" />
-        <link rel="shortcut icon" href={`${FAVICON_PATH}?v=2`} type="image/svg+xml" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="mask-icon" href="/favicon.svg" color="#06A3DA" />
+        <meta name="theme-color" content="#06A3DA" />
       </head>
       <body>
         <script

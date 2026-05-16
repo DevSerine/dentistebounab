@@ -1,0 +1,25 @@
+{
+  "name": "Dentiste Bounab",
+  "short_name": "Dentiste Bounab",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#06A3DA",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

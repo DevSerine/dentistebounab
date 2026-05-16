@@ -12,7 +12,7 @@ export default function Contact() {
                           <div className="bg-light rounded h-100 p-5">
                               <div className="section-title">
                                   <h5 className="position-relative d-inline-block text-primary text-uppercase">Nous Contacter</h5>
-                                  <h1 className="display-6 mb-4">Contactez le cabinet</h1>
+                                  <h2 className="display-6 mb-4">Contactez le cabinet</h2>
                               </div>
                               <div className="d-flex align-items-center mb-3">
                                   <span className="contact-icon-wrap me-3" aria-hidden="true">

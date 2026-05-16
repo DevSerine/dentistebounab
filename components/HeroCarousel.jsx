@@ -24,7 +24,7 @@ export default function HeroCarousel() {
                   Votre sourire, notre priorité.
                 </h5>
                 <h1 className="display-1 text-white mb-md-4 animated zoomIn">
-                  Dr Bounab vous accompagne pour vos soins et Urgences dentaires 24/7
+                  Dentiste Bounab – Cabinet dentaire à El Biar, Alger | H24 7j/7
                 </h1>
                 <div className="hero-actions">
                   <Link href="#reservation" className="btn btn-primary py-md-3 px-md-5 animated slideInLeft">
@@ -53,9 +53,9 @@ export default function HeroCarousel() {
                 <h5 className="text-white text-uppercase mb-3 animated slideInDown">
                   Urgence, prévention et esthétique
                 </h5>
-                <h1 className="display-1 text-white mb-md-4 animated zoomIn">
+                <h2 className="display-1 text-white mb-md-4 animated zoomIn">
                   Une prise en charge claire et professionnelle
-                </h1>
+                </h2>
                 <div className="hero-actions">
                   <Link href="#reservation" className="btn btn-primary py-md-3 px-md-5 animated slideInLeft">
                     Prendre Rendez-vous

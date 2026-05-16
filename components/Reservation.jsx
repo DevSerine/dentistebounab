@@ -11,7 +11,7 @@ export default function Reservation() {
                       <div className="col-lg-5 wow slideInUp" data-wow-delay="0.1s">
                           <div className="reservation-intro text-white">
                               <h5 className="text-white text-uppercase mb-3">Rendez-vous</h5>
-                              <h1 className="text-white mb-4">Réservez simplement votre consultation</h1>
+                              <h2 className="text-white mb-4">Réservez simplement votre consultation</h2>
                               <p className="mb-4">Décrivez votre besoin en quelques mots. Le cabinet vous recontacte pour confirmer l’horaire le plus adapté.</p>
                               <div className="reservation-step wow fadeInUp" data-wow-delay="0.1s">
                                   <span>1</span>
@@ -41,7 +41,7 @@ export default function Reservation() {
                           <div className="bg-light rounded h-100 p-5">
                               <div className="section-title">
                                   <h5 className="position-relative d-inline-block text-primary text-uppercase">Demande de rendez-vous</h5>
-                                  <h1 className="display-6 mb-4">Quelques informations pour mieux vous orienter</h1>
+                                  <h3 className="display-6 mb-4">Quelques informations pour mieux vous orienter</h3>
                               </div>
                               <WhatsAppForm
                                 messagePrefix="Bonjour Dr Bounab, je souhaite prendre rendez-vous."

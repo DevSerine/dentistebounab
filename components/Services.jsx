@@ -10,7 +10,7 @@ export default function Services() {
                       <div className="col-lg-8">
                           <div className="section-title">
                               <h5 className="position-relative d-inline-block text-primary text-uppercase">Nos Services</h5>
-                              <h1 className="display-5 mb-0">Les Services dentaires disponibles ! </h1>
+                              <h2 className="display-5 mb-0">Les Services dentaires disponibles ! </h2>
                           </div>
                       </div>
                       

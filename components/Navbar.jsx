@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm sticky-top px-3 px-lg-4 py-3 py-lg-0">
       <Link href="#home" className="navbar-brand p-0">
-        <h1 className="m-0 text-primary brand-title">
+        <p className="m-0 text-primary brand-title">
           <img
             className="brand-icon"
             src={LOGO_PATH}
@@ -15,7 +15,7 @@ export default function Navbar() {
             aria-hidden="true"
           />
           {BRAND_NAME}
-        </h1>
+        </p>
       </Link>
       <button
         className="navbar-toggler"
