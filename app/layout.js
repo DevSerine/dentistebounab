@@ -2,7 +2,7 @@ import { siteMetadata, getStructuredDataJsonLd } from "@/lib/seo";
 import "@/styles/globals.css";
 import ClientProviders from "@/components/ClientProviders";
 
-const GOOGLE_SITE_VERIFICATION = "kM4HEis6XbqY__gcJi-jiHTUETd--zw7rMsv_IFDJaQ";
+const GOOGLE_SITE_VERIFICATION = "elAPHJJ9lvXM0zPbCaUHY2sOqy4mt7OD9PwnIP1j3E0";
 const FAVICON_PATH = "/favicon.svg";
 
 export const metadata = {
@@ -54,6 +54,7 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="mask-icon" href="/favicon.svg" color="#06A3DA" />
+        <meta name="google-site-verification" content="elAPHJJ9lvXM0zPbCaUHY2sOqy4mt7OD9PwnIP1j3E0" />
         <meta name="theme-color" content="#06A3DA" />
       </head>
       <body>
