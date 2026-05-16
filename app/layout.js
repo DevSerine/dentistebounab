@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
         />
         <link rel="stylesheet" href="/lib/animate/animate.min.css" />
+        <meta name="google-site-verification" content="kM4HEis6XbqY__gcJi-jiHTUETd--zw7rMsv_IFDJaQ" />
       </head>
       <body>
         <script
