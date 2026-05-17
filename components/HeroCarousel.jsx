@@ -11,7 +11,7 @@ export default function HeroCarousel() {
               <SiteImage
                 fill
                 src="/img/dentist-giving-mirror-patient-office.jpg"
-                alt="Cabinet dentaire Dr Bounab"
+                alt="Cabinet Dentiste Bounab — Dr Bounab, El Biar"
                 className="carousel-slide-img"
                 priority
                 fetchPriority="high"
@@ -42,7 +42,7 @@ export default function HeroCarousel() {
               <SiteImage
                 fill
                 src="/img/equipment-dental-instruments-dentist-s-office-tools-close-up.jpg"
-                alt="Consultation dentaire"
+                alt="Consultation — Dentiste Bounab, El Biar"
                 className="carousel-slide-img"
                 loading="lazy"
                 sizes="100vw"

@@ -34,7 +34,7 @@ export default function About() {
                     src="/img/young-girl-dentist-choosing-tools-dentistry-concept-preparation-tooth-filling.jpg"
                     width={867}
                     height={1300}
-                    alt="Cabinet dentaire du Dr Bounab à El Biar — consultation et soins dentaires"
+                    alt="Cabinet Dentiste Bounab — Dr Bounab, El Biar — consultation et soins dentaires"
                     className="position-absolute w-100 h-100 rounded wow zoomIn"
                     loading="lazy"
                   />

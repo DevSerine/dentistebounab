@@ -16,7 +16,7 @@ export default function Team() {
                     src="/img/dentist-holding-dental-tools.jpg"
                     width={1200}
                     height={800}
-                    alt={"Dr Bounab"}
+                    alt={"Dr Bounab — Dentiste Bounab, El Biar"}
                     className="img-fluid rounded-top w-100"
                     loading="lazy"
                   />

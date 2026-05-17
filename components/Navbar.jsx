@@ -11,8 +11,7 @@ export default function Navbar() {
             src={LOGO_PATH}
             width={95}
             height={95}
-            alt=""
-            aria-hidden="true"
+            alt="Logo Dentiste Bounab — Dentiste Bounab"
           />
           {BRAND_NAME}
         </p>

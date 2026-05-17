@@ -23,7 +23,7 @@ export default function Services() {
                     src="/img/dentist-examining-female-patient.jpg"
                     width={1200}
                     height={800}
-                    alt={"Contrôle dentaire"}
+                    alt={"Contrôle dentaire — Dentiste Bounab, El Biar"}
                     className=""
                     loading="lazy"
                   />
@@ -39,7 +39,7 @@ export default function Services() {
                     src="/img/dentist-assistant-with-tool-makes-some-manipulations-patient-s-mouth.jpg"
                     width={867}
                     height={1300}
-                    alt={"Douleur dentaire ou urgence"}
+                    alt={"Urgence dentaire — Dentiste Bounab, El Biar"}
                     className=""
                     loading="lazy"
                   />
@@ -55,7 +55,7 @@ export default function Services() {
                     src="/img/equipment-dental-instruments-dentist-s-office-tools-close-up.jpg"
                     width={1200}
                     height={800}
-                    alt={"Carie ou plombage"}
+                    alt={"Soins des caries — Dentiste Bounab, El Biar"}
                     className=""
                     loading="lazy"
                   />
@@ -71,7 +71,7 @@ export default function Services() {
                     src="/img/high-angle-dentist-holding-equipment.jpg"
                     width={1200}
                     height={800}
-                    alt={"Extraction dentaire"}
+                    alt={"Extraction dentaire — Dentiste Bounab, El Biar"}
                     className=""
                     loading="lazy"
                   />
@@ -87,7 +87,7 @@ export default function Services() {
                     src="/img/dentist-examining-female-patient-with-teeth-shades.jpg"
                     width={1200}
                     height={800}
-                    alt={"Blanchiment des dents"}
+                    alt={"Blanchiment — Dentiste Bounab, El Biar"}
                     className=""
                     loading="lazy"
                   />
@@ -103,7 +103,7 @@ export default function Services() {
                     src="/img/digital-smile-design.jpg"
                     width={780}
                     height={488}
-                    alt={"Esthétique du sourire"}
+                    alt={"Esthétique du sourire — Dentiste Bounab"}
                     className=""
                     loading="lazy"
                   />
@@ -119,7 +119,7 @@ export default function Services() {
                     src="/img/dental-procedure-installing-braces-close-up-dentistry-braces-teeth1.jpg"
                     width={1200}
                     height={558}
-                    alt={"Appareil dentaire et ODF"}
+                    alt={"Orthodontie (appareil dentaire) — Dentiste Bounab, El Biar"}
                     className=""
                     loading="lazy"
                   />
@@ -135,7 +135,7 @@ export default function Services() {
                     src="/img/close-up-pacient-talking-doctor-about-vaccine.jpg"
                     width={1200}
                     height={569}
-                    alt={"Suivi après soin"}
+                    alt={"Suivi après soin — Dentiste Bounab, El Biar"}
                     className=""
                     loading="lazy"
                   />

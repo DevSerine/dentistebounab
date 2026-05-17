@@ -32,6 +32,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr-DZ">
       <head>
+        <title>Dentiste Bounab — Dentiste El Biar 24h/24, Alger</title>
+        <meta
+          name="description"
+          content="Dentiste Bounab à El Biar (Alger) — Dr Bounab, urgences dentaires 24/7, soins, esthétique et blanchiment. Tel/WhatsApp 0555 91 70 61."
+        />
+        <link rel="canonical" href="https://dentistebounab.netlify.app/" />
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+        <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
